@@ -82,8 +82,7 @@ font-family: 'Playfair Display', serif; */
 }
 
 .title {
-    width: 400px;
-    margin: 0 auto;
+    
     font-family: "Playfair Display";
     font-size: 58px;
     color: #484a4b;
@@ -100,8 +99,7 @@ font-family: 'Playfair Display', serif; */
 }
 
 .body {
-    margin: 0 auto;
-    width: 403px;
+    padding: 0 110px;
     font-size: 25px;
     line-height: 29px;
     color: #765a33;
@@ -192,6 +190,7 @@ sup{
     background-size: cover;
 }
 .product-title{
+    padding: 0 130px;
     padding-top: 100px;
     font-size: 57px;
 letter-spacing: 1px;
@@ -219,12 +218,11 @@ padding-bottom: 75px;
 .cards{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
+   position: relative;
 }
 .card{
     position: relative;
-    width: 21%;
+    width: 313px;
     margin: 2%;
     filter: drop-shadow(0px 7px 9px rgba(0,0,0,0.19));
     background-color: #e6e3da;
@@ -245,7 +243,7 @@ padding-bottom: 75px;
     font-family: "Playfair Display";
 }
 .card-subinfo{
-    width: 200px;
+    padding: 0 40px;
     font-size: 13px;
     line-height: 17px;
     color: #765a33;
@@ -272,26 +270,29 @@ padding-bottom: 75px;
 }
 .heart{
     position: absolute;
-    top: 295px;
+    top: 325px;
     right: 14px;
 }
 .product_bottom_leaf1{
-    left: 199px;
-    top: 915px;
+    left: 15%;
+    top: 25px;
     rotate: 280deg;
 }
 .product_bottom_leaf2{
-    right: 199px;
-    top: 915px;
+    right: 15%;
+    top: 25px;
     rotate: 90deg;
 }
+.slider_button{
+    position: absolute;
+    width: 100%;
+
+}
 .product_slider_button1{
-    left: 645px;
-    top: 900px;
+    left: 35%;
 }
 .product_slider_button2{
-    right: 645px;
-    top: 900px;
+    right: 35%;
 }
 .process_title{
     font-size: 58px;
@@ -311,14 +312,17 @@ font-family: "Montserrat Alternates";
 text-align: center;
 }
 .process_video{
+    width: 100%;
+    /* left: 210px; */
     text-align: center;
     padding-top: 122px;
-    padding-bottom: 197px;
+    /* padding-bottom: 197px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    position: absolute;
 }
 .bouquet_making_video{
-    width: 1059px;
-    height: 621px;
-    position: relative;
+    width: 70%;
 }
 .process{
     position: relative;
